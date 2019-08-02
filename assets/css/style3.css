@@ -1,0 +1,80 @@
+
+body { font-family:Arial, Helvetica, sans-serif; }
+
+.product-carousel-price ins {
+  color: purple;
+  font-weight: 700;
+  margin-right: 5px;
+  text-decoration: none;
+}
+.product-hover a i.fa {
+    margin-right: 5px;
+}
+.product-hover a.add-to-cart-link {top: -25%;}
+.product-hover a.view-details-link { bottom: -25%;}
+.single-product h2 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+
+.single-product h2 a {
+    color: #222;
+}
+.single-product p {
+    color: purple;
+    font-weight: 700;
+}
+
+.single-product {
+  overflow: hidden;
+}
+.single-product:hover {}
+.single-product:hover .product-hover a.add-to-cart-link {top: 32%;}
+.single-product:hover .product-hover a.view-details-link {bottom: 32%;}
+.single-product:hover .product-hover:after{left: 0}
+
+
+.product-carousel {
+  padding-top: 40px;
+}
+
+
+.maincontent-area {padding-bottom: 50px; padding-top:20px;}
+
+.single-product-area .zigzag-bottom {background-color: #f4f4f4}
+
+.single-product-area {
+    padding: 80px 0 130px;
+}
+.promo-area .zigzag-bottom, .brands-area .zigzag-bottom{background: #f4f4f4}
+
+.single-shop-product h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+.product-option-shop {
+    margin-top: 15px;
+}
+
+.single-shop-product {margin-bottom: 50px}
+.add_to_cart_button {
+    background: none repeat scroll 0 0 purple;
+    border: medium none;
+    color: #fff;
+    padding: 6px 25px;display: inline-block
+}
+.add_to_cart_button:hover {background-color: #222;color: #fff;text-decoration: none}
+div.cart-collaterals ul.products li.product:hover .add_to_cart_button{background-color: #222}
+
+.product-big-title-area {background: url(images/) repeat scroll 0 0 purple}
+
+.product-bit-title h2 {
+    font-family: raleway;
+    font-size: 50px;
+    font-weight: 200;
+    margin: 0;
+    padding: 50px 0;color: #fff;
+}
